@@ -1,0 +1,26 @@
+.head {
+    width: 100%;
+    height: 50px;
+
+    background-color: #212114;
+
+    .center {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+
+        background-color: #DDD;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+            color: orange;
+            font: 500 2rem 'Fira Code';
+        }
+    }
+}

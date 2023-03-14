@@ -1,0 +1,19 @@
+:root {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #DDD;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@import './sass/header';
+@import './sass/main';
+@import './sass/erro';
+@import './sass/footer';
