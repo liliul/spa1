@@ -1,0 +1,12 @@
+{
+  "name": "spa1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass -w src/style/estilos.scss:src/style/index.css & live-server --no-browser"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
