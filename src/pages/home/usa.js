@@ -1,3 +1,5 @@
+import { Counter } from "../../components/counter.js";
+
 export default () => {
     const divImg = document.createElement('div')
 
@@ -8,10 +10,8 @@ export default () => {
             </div>
 
             <article class="ler">
-                <h1>Lorem input cat spas</h1>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam tenetur sit deleniti magni perspiciatis voluptas aliquam, nesciunt laboriosam natus impedit. Quaerat iusto aliquam excepturi accusantium harum aspernatur ducimus possimus.</p>
-            </article>
+                ${Counter()}
+            </article>    
         </section>
     `
 
