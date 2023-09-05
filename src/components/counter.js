@@ -3,8 +3,8 @@ export function Counter() {
     return (
         `
             <div class="c">
-                <button click="${somar()}">Counter</button>
-                <span>${somar()}</span>
+                <button style="padding:8px;width:150px;border:0;box-shadow:4px 5px 10px rgba(0,0,0,0.5);" click="${somar()}">Counter</button>
+                <span style="font-size:18px;margin-left:30px;">${somar()}</span>
             </div>
         
         `
